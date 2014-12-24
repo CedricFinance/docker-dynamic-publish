@@ -10,6 +10,6 @@ Usage
 
 This container requires a link named `target` and the target port to expose in the `PORT` environment variable.
 
-    docker run -it --rm -p 8888:1234 -e PORT=8161 --link othercontainer:target CedricFinance/dynamic-publish
+    docker run -it --rm -p 8888:1234 -e PORT=8161 --link othercontainer:target cedricfinance/dynamic-publish
 
 This will publish the port `8161` of `othercontainer` on port  8888 of the host.
