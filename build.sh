@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build -t dynamic-publish .
+docker build -t cedricfinance/dynamic-publish .
